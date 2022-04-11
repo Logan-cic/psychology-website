@@ -1,0 +1,148 @@
+
+body{
+    margin: 0px;
+    height: 100vh;
+
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "article article"
+        "main aside"
+        "nav nav"
+        "footer footer";
+    grid-auto-rows: 50px 300px 1fr  50px;
+    grid-template-columns: 1fr 300px;
+}
+
+#menu-h {
+    list-style: none;
+    padding: 12;
+    background-color: #1286B0;
+}
+
+#menu-h li{
+    display: inline;
+}
+
+#menu-h li a{
+    color: #fff;
+    padding: 20px;
+    
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h li a:hover {
+   background-color: #15A3D6;
+}
+
+header{
+    grid-area: header;
+    height: 200px;
+    background-color: #1286B0;
+    border-bottom: solid #15A3D6;
+    box-sizing: border-box;
+}
+
+article{
+    grid-area: article;
+    background-image: url(https://media.istockphoto.com/photos/waiting-for-human-resources-decision-picture-id1280507949?b=1&k=20&m=1280507949&s=170667a&w=0&h=j_jEZgIF320xZA23iv_lwg5Efrsd7XAVXpMmZn5Nvjw=);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 0px;
+    margin-top: 22px;
+    color: white;
+    background-color: #04B2D9;;
+}
+h1{
+    font-family: "Rockwell";
+    font-weight: normal;
+    margin: 35px 45px 200px 90px;
+    font-size: 50px;
+}
+
+h2{
+    width: 1277,5px;
+    height: 115px;
+    font-size: 28px;
+    font-family: "Rockwell";
+    font-weight: normal;
+    padding-left: 45px;
+    padding-top: 27px;
+    background-color: #049DD9;
+    box-sizing: border-box;
+}
+
+h3{
+    width: 1277,5px;
+    height: 115px;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: "Rockwell";
+    padding-left: 46px;
+    padding-top: 39px;
+    background-color: #049DD9;
+    box-sizing: border-box;
+}
+
+img{
+    padding-left: 8px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ul{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+
+iframe{
+    margin-top: 50px;
+    padding-left: 175px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+
+main{
+    grid-area: main;
+    background-color: white;
+}
+
+nav{
+    grid-area: nav;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: white;
+}
+aside{
+    grid-area: aside; 
+    background-color: white;
+}
+div{
+    margin: 0;
+ 
+    background-color: white;
+    box-sizing: border-box;
+
+}
+footer{
+    grid-area: footer;
+    height: 250px;
+    background-color: #1286B0;
+}
