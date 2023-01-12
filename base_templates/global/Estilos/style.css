@@ -154,7 +154,7 @@ p{
     font-size: 1em;
 }
 
-ul {
+main > ul {
     list-style-position: inside;
     margin-left: 60px;
     margin-bottom: 15px;
