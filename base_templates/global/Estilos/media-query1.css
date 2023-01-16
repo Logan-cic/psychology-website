@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 425px){
+    #menu {
+        display: none;
+    }
+
+    #mobile-menu-icon {
+        display: flex;
+        justify-content: center;
+        background-color: #0f6787;
+    }
+
+    #mobile-menu-icon button {
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        background-color: #0f6787;
+    }
+
+    #mobile-menu ul li {
+        padding: 10px;
+    }
+
+    #mobile-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    #mobile-menu ul li:hover {
+        background-color: rgb(34, 164, 211);
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 426px)  and (max-width: 768px) {
+    #imagem {
+        background: url(https://media.istockphoto.com/photos/waiting-for-human-resources-decision-picture-id1280507949?b=1&k=20&m=1280507949&s=170667a&w=0&h=j_jEZgIF320xZA23iv_lwg5Efrsd7XAVXpMmZn5Nvjw=) no-repeat left;
+        background-size: cover;
+        width: 50vw;
+        position: absolute;
+        top: -2vh;
+        left: 55vw;
+    }
+
+    #titulo {
+        height: 241px;
+    }
+
+    #titulo h1 {
+        padding: 5px;
+        margin: 0px;
+        text-align: center;
+        color: white;
+        position: relative;
+        width: 50vw;
+    }
+  
+    #menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        background-color: #0f6787;
+    }
+    
+    #menu ul li {
+        margin: 6px;
+    }
+    
+    #menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 0px 9px
+    }
+
+    main {
+        max-width: 500px;
+        margin: auto;
+        padding: 0px 12px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #imagem {
+        background: url(https://media.istockphoto.com/photos/waiting-for-human-resources-decision-picture-id1280507949?b=1&k=20&m=1280507949&s=170667a&w=0&h=j_jEZgIF320xZA23iv_lwg5Efrsd7XAVXpMmZn5Nvjw=) no-repeat left;
+        background-size: cover;
+        width: 50vw;
+        position: absolute;
+        top: -2vh;
+        left: 55vw;
+    }
+
+    #titulo {
+        height: 241px;
+    }
+
+    #titulo h1 {
+        padding: 20px;
+        padding-top: 35px;
+        text-align: center;
+        color: white;
+        position: relative;
+        width: 50vw;
+        font-size: 2.3rem;
+    }
+
+    #menu ul li a {
+        padding: 0px 35px
+    }
+
+    main {
+        max-width: 800px;
+        margin: auto;
+        padding: 0px 12px;
+    }
+}
