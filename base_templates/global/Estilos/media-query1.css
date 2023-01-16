@@ -89,6 +89,12 @@
         padding: 0px 9px
     }
 
+    #video iframe {
+        width: 430px;
+        height: 300px;
+        margin: auto;
+    }
+
     main {
         max-width: 500px;
         margin: auto;

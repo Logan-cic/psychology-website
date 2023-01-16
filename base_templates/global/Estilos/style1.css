@@ -75,6 +75,11 @@ main ul {
     line-height: 22px;
 }
 
+#video iframe {
+    width: 92vw;
+    justify-content: center;
+}
+
 footer {
     background-color: #0f6787;
     box-shadow: 2px 2px 5px black;
